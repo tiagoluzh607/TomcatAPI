@@ -1,0 +1,897 @@
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.82
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Sep 29 2017 12:23:15 UTC
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.82.0
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Linux
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            4.12.9-041209-generic
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             /usr/lib/jvm/java-8-oracle/jre
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.8.0_144-b01
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         /home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         /home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/logging.properties
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/endorsed
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/temp
+fev 28, 2018 4:37:25 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+fev 28, 2018 4:37:25 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+fev 28, 2018 4:37:25 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 474 ms
+fev 28, 2018 4:37:25 PM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+fev 28, 2018 4:37:25 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.82
+fev 28, 2018 4:37:25 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMAÇÕES: Deploying configuration descriptor /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/Catalina/localhost/WEB-INF.xml
+fev 28, 2018 4:37:26 PM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+fev 28, 2018 4:37:26 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMAÇÕES: Deployment of configuration descriptor /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/Catalina/localhost/WEB-INF.xml has finished in 400 ms
+fev 28, 2018 4:37:26 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/loja.war
+fev 28, 2018 4:37:26 PM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+fev 28, 2018 4:37:26 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFORMAÇÕES: Initiating Jersey application, version Jersey: 2.5 2013-12-18 14:27:29...
+fev 28, 2018 4:37:27 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deployment of web application archive /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/loja.war has finished in 1,009 ms
+fev 28, 2018 4:37:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/ROOT
+fev 28, 2018 4:37:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/ROOT has finished in 38 ms
+fev 28, 2018 4:37:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/manager
+fev 28, 2018 4:37:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/manager has finished in 117 ms
+fev 28, 2018 4:37:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/examples
+fev 28, 2018 4:37:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/examples has finished in 341 ms
+fev 28, 2018 4:37:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/docs
+fev 28, 2018 4:37:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/docs has finished in 29 ms
+fev 28, 2018 4:37:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/host-manager
+fev 28, 2018 4:37:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/host-manager has finished in 32 ms
+fev 28, 2018 4:37:27 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-8080"]
+fev 28, 2018 4:37:27 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+fev 28, 2018 4:37:27 PM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 2029 ms
+fev 28, 2018 4:48:17 PM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+fev 28, 2018 4:48:17 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-8080"]
+fev 28, 2018 4:48:17 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+fev 28, 2018 4:48:17 PM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+fev 28, 2018 4:48:17 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-8080"]
+fev 28, 2018 4:48:17 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+fev 28, 2018 4:48:17 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-8080"]
+fev 28, 2018 4:48:17 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.82
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Sep 29 2017 12:23:15 UTC
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.82.0
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Linux
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            4.12.9-041209-generic
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             /usr/lib/jvm/java-8-oracle/jre
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.8.0_144-b01
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         /home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         /home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/logging.properties
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/endorsed
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/temp
+mar 05, 2018 8:42:03 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+mar 05, 2018 8:42:03 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 8:42:03 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 602 ms
+mar 05, 2018 8:42:03 AM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+mar 05, 2018 8:42:03 AM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.82
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMAÇÕES: Deploying configuration descriptor /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/Catalina/localhost/WEB-INF.xml
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMAÇÕES: Deployment of configuration descriptor /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/Catalina/localhost/WEB-INF.xml has finished in 422 ms
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/ROOT
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/ROOT has finished in 34 ms
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/manager
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/manager has finished in 118 ms
+mar 05, 2018 8:42:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/examples
+mar 05, 2018 8:42:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/examples has finished in 149 ms
+mar 05, 2018 8:42:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/docs
+mar 05, 2018 8:42:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/docs has finished in 20 ms
+mar 05, 2018 8:42:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/host-manager
+mar 05, 2018 8:42:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/host-manager has finished in 40 ms
+mar 05, 2018 8:42:04 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 8:42:04 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 8:42:04 AM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 847 ms
+mar 05, 2018 9:13:44 AM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+mar 05, 2018 9:13:44 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:13:44 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:13:44 AM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+mar 05, 2018 9:13:45 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:13:45 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:13:45 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:13:45 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.82
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Sep 29 2017 12:23:15 UTC
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.82.0
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Linux
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            4.12.9-041209-generic
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             /usr/lib/jvm/java-8-oracle/jre
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.8.0_144-b01
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         /home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         /home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/logging.properties
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/endorsed
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/temp
+mar 05, 2018 9:14:01 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+mar 05, 2018 9:14:01 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:14:01 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 448 ms
+mar 05, 2018 9:14:01 AM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+mar 05, 2018 9:14:01 AM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.82
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMAÇÕES: Deploying configuration descriptor /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/Catalina/localhost/WEB-INF.xml
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMAÇÕES: Deployment of configuration descriptor /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/Catalina/localhost/WEB-INF.xml has finished in 357 ms
+mar 05, 2018 9:14:01 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/olimpo.war
+mar 05, 2018 9:14:02 AM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mar 05, 2018 9:14:03 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFORMAÇÕES: Initiating Jersey application, version Jersey: 2.5 2013-12-18 14:27:29...
+mar 05, 2018 9:14:03 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deployment of web application archive /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/olimpo.war has finished in 1,532 ms
+mar 05, 2018 9:14:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/ROOT
+mar 05, 2018 9:14:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/ROOT has finished in 52 ms
+mar 05, 2018 9:14:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/manager
+mar 05, 2018 9:14:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/manager has finished in 114 ms
+mar 05, 2018 9:14:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/examples
+mar 05, 2018 9:14:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/examples has finished in 306 ms
+mar 05, 2018 9:14:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/docs
+mar 05, 2018 9:14:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/docs has finished in 18 ms
+mar 05, 2018 9:14:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/host-manager
+mar 05, 2018 9:14:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/host-manager has finished in 21 ms
+mar 05, 2018 9:14:03 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:14:03 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:14:03 AM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 2459 ms
+mar 05, 2018 9:15:31 AM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+mar 05, 2018 9:15:31 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:15:31 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:15:31 AM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+mar 05, 2018 9:15:31 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:15:31 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:15:31 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:15:31 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.82
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Sep 29 2017 12:23:15 UTC
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.82.0
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Linux
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            4.12.9-041209-generic
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             /usr/lib/jvm/java-8-oracle/jre
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.8.0_144-b01
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         /home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         /home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/logging.properties
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/endorsed
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/temp
+mar 05, 2018 9:18:52 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+mar 05, 2018 9:18:52 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:18:52 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 432 ms
+mar 05, 2018 9:18:52 AM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+mar 05, 2018 9:18:52 AM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.82
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMAÇÕES: Deploying configuration descriptor /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/Catalina/localhost/WEB-INF.xml
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMAÇÕES: Deployment of configuration descriptor /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/Catalina/localhost/WEB-INF.xml has finished in 379 ms
+mar 05, 2018 9:18:52 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/webapp.war
+mar 05, 2018 9:18:53 AM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mar 05, 2018 9:18:53 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFORMAÇÕES: Initiating Jersey application, version Jersey: 2.5 2013-12-18 14:27:29...
+mar 05, 2018 9:18:54 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deployment of web application archive /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/webapp.war has finished in 1,590 ms
+mar 05, 2018 9:18:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/ROOT
+mar 05, 2018 9:18:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/ROOT has finished in 23 ms
+mar 05, 2018 9:18:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/manager
+mar 05, 2018 9:18:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/manager has finished in 68 ms
+mar 05, 2018 9:18:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/examples
+mar 05, 2018 9:18:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/examples has finished in 228 ms
+mar 05, 2018 9:18:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/docs
+mar 05, 2018 9:18:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/docs has finished in 20 ms
+mar 05, 2018 9:18:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/host-manager
+mar 05, 2018 9:18:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/host-manager has finished in 23 ms
+mar 05, 2018 9:18:54 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:18:54 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:18:54 AM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 2385 ms
+mar 05, 2018 9:21:23 AM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+mar 05, 2018 9:21:23 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:21:23 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:21:23 AM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+mar 05, 2018 9:21:23 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:21:23 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:21:23 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:21:23 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.82
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Sep 29 2017 12:23:15 UTC
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.82.0
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Linux
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            4.12.9-041209-generic
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             /usr/lib/jvm/java-8-oracle/jre
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.8.0_144-b01
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         /home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         /home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/logging.properties
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/endorsed
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/temp
+mar 05, 2018 9:23:08 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+mar 05, 2018 9:23:08 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:23:08 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 425 ms
+mar 05, 2018 9:23:08 AM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+mar 05, 2018 9:23:08 AM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.82
+mar 05, 2018 9:23:08 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMAÇÕES: Deploying configuration descriptor /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/Catalina/localhost/WEB-INF.xml
+mar 05, 2018 9:23:09 AM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mar 05, 2018 9:23:09 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMAÇÕES: Deployment of configuration descriptor /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/Catalina/localhost/WEB-INF.xml has finished in 406 ms
+mar 05, 2018 9:23:09 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/olimpoapi.war
+mar 05, 2018 9:23:10 AM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mar 05, 2018 9:23:10 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFORMAÇÕES: Initiating Jersey application, version Jersey: 2.5 2013-12-18 14:27:29...
+mar 05, 2018 9:23:11 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deployment of web application archive /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/olimpoapi.war has finished in 1,766 ms
+mar 05, 2018 9:23:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/ROOT
+mar 05, 2018 9:23:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/ROOT has finished in 21 ms
+mar 05, 2018 9:23:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/manager
+mar 05, 2018 9:23:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/manager has finished in 63 ms
+mar 05, 2018 9:23:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/examples
+mar 05, 2018 9:23:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/examples has finished in 222 ms
+mar 05, 2018 9:23:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/docs
+mar 05, 2018 9:23:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/docs has finished in 16 ms
+mar 05, 2018 9:23:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/host-manager
+mar 05, 2018 9:23:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/host-manager has finished in 22 ms
+mar 05, 2018 9:23:11 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:23:11 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:23:11 AM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 2585 ms
+mar 05, 2018 9:27:07 AM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+mar 05, 2018 9:27:07 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:27:07 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:27:07 AM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+mar 05, 2018 9:27:07 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [/olimpoapi] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+mar 05, 2018 9:27:07 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:27:07 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:27:07 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:27:07 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.82
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Sep 29 2017 12:23:15 UTC
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.82.0
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Linux
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            4.12.9-041209-generic
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             /usr/lib/jvm/java-8-oracle/jre
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.8.0_144-b01
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         /home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         /home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/logging.properties
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/endorsed
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/temp
+mar 05, 2018 9:46:13 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+mar 05, 2018 9:46:13 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:46:13 AM org.apache.coyote.AbstractProtocol init
+GRAVE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Endereço já em uso (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Endereço já em uso (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+mar 05, 2018 9:46:13 AM org.apache.catalina.core.StandardService initInternal
+GRAVE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Endereço já em uso (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Endereço já em uso (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+mar 05, 2018 9:46:13 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 548 ms
+mar 05, 2018 9:46:13 AM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+mar 05, 2018 9:46:13 AM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.82
+mar 05, 2018 9:46:13 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMAÇÕES: Deploying configuration descriptor /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/Catalina/localhost/WEB-INF.xml
+mar 05, 2018 9:46:14 AM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mar 05, 2018 9:46:14 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMAÇÕES: Deployment of configuration descriptor /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/Catalina/localhost/WEB-INF.xml has finished in 417 ms
+mar 05, 2018 9:46:14 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/olimpoapi.war
+mar 05, 2018 9:46:15 AM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mar 05, 2018 9:46:15 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFORMAÇÕES: Initiating Jersey application, version Jersey: 2.5 2013-12-18 14:27:29...
+mar 05, 2018 9:46:16 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deployment of web application archive /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/olimpoapi.war has finished in 1,766 ms
+mar 05, 2018 9:46:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/ROOT
+mar 05, 2018 9:46:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/ROOT has finished in 24 ms
+mar 05, 2018 9:46:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/manager
+mar 05, 2018 9:46:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/manager has finished in 124 ms
+mar 05, 2018 9:46:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/examples
+mar 05, 2018 9:46:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/examples has finished in 348 ms
+mar 05, 2018 9:46:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/docs
+mar 05, 2018 9:46:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/docs has finished in 27 ms
+mar 05, 2018 9:46:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/host-manager
+mar 05, 2018 9:46:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/host-manager has finished in 30 ms
+mar 05, 2018 9:46:16 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:46:16 AM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 2788 ms
+mar 05, 2018 9:47:16 AM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+mar 05, 2018 9:47:16 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:47:16 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:47:16 AM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+mar 05, 2018 9:47:16 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:47:16 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:47:16 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:47:16 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.82
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Sep 29 2017 12:23:15 UTC
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.82.0
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Linux
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            4.12.9-041209-generic
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             /usr/lib/jvm/java-8-oracle/jre
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.8.0_144-b01
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         /home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         /home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/logging.properties
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/endorsed
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/temp
+mar 05, 2018 9:47:30 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+mar 05, 2018 9:47:30 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:47:30 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 437 ms
+mar 05, 2018 9:47:30 AM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+mar 05, 2018 9:47:30 AM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.82
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMAÇÕES: Deploying configuration descriptor /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/Catalina/localhost/WEB-INF.xml
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMAÇÕES: Deployment of configuration descriptor /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/Catalina/localhost/WEB-INF.xml has finished in 386 ms
+mar 05, 2018 9:47:30 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/olimpoapi.war
+mar 05, 2018 9:47:31 AM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mar 05, 2018 9:47:32 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFORMAÇÕES: Initiating Jersey application, version Jersey: 2.5 2013-12-18 14:27:29...
+mar 05, 2018 9:47:32 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deployment of web application archive /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/olimpoapi.war has finished in 1,568 ms
+mar 05, 2018 9:47:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/ROOT
+mar 05, 2018 9:47:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/ROOT has finished in 22 ms
+mar 05, 2018 9:47:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/manager
+mar 05, 2018 9:47:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/manager has finished in 93 ms
+mar 05, 2018 9:47:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/examples
+mar 05, 2018 9:47:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/examples has finished in 271 ms
+mar 05, 2018 9:47:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/docs
+mar 05, 2018 9:47:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/docs has finished in 21 ms
+mar 05, 2018 9:47:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/host-manager
+mar 05, 2018 9:47:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/host-manager has finished in 26 ms
+mar 05, 2018 9:47:32 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:47:33 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:47:33 AM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 2447 ms
+duda
+mar 05, 2018 9:49:28 AM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+mar 05, 2018 9:49:28 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:49:28 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:49:28 AM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+mar 05, 2018 9:49:28 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [/olimpoapi] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+mar 05, 2018 9:49:28 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:49:28 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 9:49:28 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 9:49:28 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.82
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Sep 29 2017 12:23:15 UTC
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.82.0
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Linux
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            4.12.9-041209-generic
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             /usr/lib/jvm/java-8-oracle/jre
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.8.0_144-b01
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         /home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         /home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/logging.properties
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/endorsed
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=/home/tiago/eclipse-workspace/apache-tomcat-7.0.82/temp
+mar 05, 2018 11:20:47 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+mar 05, 2018 11:20:47 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 11:20:47 AM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 600 ms
+mar 05, 2018 11:20:47 AM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+mar 05, 2018 11:20:47 AM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.82
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMAÇÕES: Deploying configuration descriptor /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/Catalina/localhost/WEB-INF.xml
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMAÇÕES: Deployment of configuration descriptor /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/conf/Catalina/localhost/WEB-INF.xml has finished in 504 ms
+mar 05, 2018 11:20:47 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/olimpoapi.war
+mar 05, 2018 11:20:49 AM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mar 05, 2018 11:20:49 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFORMAÇÕES: Initiating Jersey application, version Jersey: 2.5 2013-12-18 14:27:29...
+mar 05, 2018 11:20:49 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deployment of web application archive /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/olimpoapi.war has finished in 1,656 ms
+mar 05, 2018 11:20:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/ROOT
+mar 05, 2018 11:20:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/ROOT has finished in 32 ms
+mar 05, 2018 11:20:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/manager
+mar 05, 2018 11:20:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/manager has finished in 124 ms
+mar 05, 2018 11:20:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/examples
+mar 05, 2018 11:20:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/examples has finished in 340 ms
+mar 05, 2018 11:20:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/docs
+mar 05, 2018 11:20:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/docs has finished in 26 ms
+mar 05, 2018 11:20:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/host-manager
+mar 05, 2018 11:20:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory /home/tiago/eclipse-workspace/apache-tomcat-7.0.82/webapps/host-manager has finished in 33 ms
+mar 05, 2018 11:20:50 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 11:20:50 AM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 11:20:50 AM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 2791 ms
+mar 05, 2018 11:22:13 AM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+mar 05, 2018 11:22:13 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 11:22:13 AM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 11:22:13 AM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+mar 05, 2018 11:22:13 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: The web application [/olimpoapi] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+mar 05, 2018 11:22:13 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 11:22:13 AM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+mar 05, 2018 11:22:13 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-8080"]
+mar 05, 2018 11:22:13 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]

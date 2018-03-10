@@ -1,0 +1,40 @@
+jan 03, 2018 10:44:48 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+jan 03, 2018 10:44:48 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: init: Global resources are available
+jan 03, 2018 10:44:48 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: list: Listing contexts for virtual host 'localhost'
+jan 03, 2018 10:44:48 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: list: Listing contexts for virtual host 'localhost'
+jan 03, 2018 10:44:48 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: install: Installing context configuration at 'file:/tmp/context3173205073473344296.xml'
+jan 03, 2018 10:44:48 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: start: Starting web application '/WEB-INF'
+jan 03, 2018 10:45:01 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: list: Listing contexts for virtual host 'localhost'
+jan 03, 2018 10:45:01 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: list: Listing contexts for virtual host 'localhost'
+jan 03, 2018 10:49:20 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: list: Listing contexts for virtual host 'localhost'
+jan 03, 2018 10:49:20 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: list: Listing contexts for virtual host 'localhost'
+jan 03, 2018 10:50:22 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: list: Listing contexts for virtual host 'localhost'
+jan 03, 2018 10:50:22 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: list: Listing contexts for virtual host 'localhost'
+jan 03, 2018 10:50:22 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: stop: Stopping web application '/WEB-INF'
+jan 03, 2018 10:50:22 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: start: Starting web application '/WEB-INF'
+jan 03, 2018 10:50:32 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: list: Listing contexts for virtual host 'localhost'
+jan 03, 2018 10:50:32 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: list: Listing contexts for virtual host 'localhost'
+jan 03, 2018 10:51:23 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: list: Listing contexts for virtual host 'localhost'
+jan 03, 2018 10:51:23 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: list: Listing contexts for virtual host 'localhost'
+jan 03, 2018 10:51:26 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: list: Listing contexts for virtual host 'localhost'
+jan 03, 2018 10:51:26 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: Manager: list: Listing contexts for virtual host 'localhost'

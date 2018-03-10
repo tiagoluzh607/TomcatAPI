@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:17:08:40 -0300] "POST /olimpoapi/login HTTP/1.1" 200 322
+192.168.15.4 - - [07/Mar/2018:17:12:16 -0300] "POST /olimpoapi/login HTTP/1.1" 401 975
+192.168.15.4 - - [07/Mar/2018:17:12:34 -0300] "POST /olimpoapi/login HTTP/1.1" 200 323
+192.168.15.4 - - [07/Mar/2018:17:20:09 -0300] "POST /olimpoapi/login HTTP/1.1" 200 322
+192.168.15.4 - - [07/Mar/2018:17:40:01 -0300] "POST /olimpoapi/login HTTP/1.1" 200 322
+192.168.15.4 - - [07/Mar/2018:17:42:43 -0300] "POST /olimpoapi/login HTTP/1.1" 200 323
+192.168.15.4 - - [07/Mar/2018:20:22:18 -0300] "POST /olimpoapi/login HTTP/1.1" 200 323

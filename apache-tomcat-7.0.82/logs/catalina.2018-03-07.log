@@ -1,0 +1,139 @@
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.82
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Sep 29 2017 12:23:15 UTC
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.82.0
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Windows 10
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            10.0
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             C:\Program Files\Java\jdk1.8.0_161\jre
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.8.0_161-b12
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\conf\logging.properties
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.endorsed.dirs=C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\endorsed
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\temp
+mar 07, 2018 5:07:49 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_161\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Users\tiagoluz\AppData\Local\Microsoft\WindowsApps;;.
+mar 07, 2018 5:07:49 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-8080"]
+mar 07, 2018 5:07:49 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 864 ms
+mar 07, 2018 5:07:49 PM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+mar 07, 2018 5:07:49 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.82
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMAÇÕES: Deploying configuration descriptor C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\conf\Catalina\localhost\WEB-INF.xml
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.HostConfig deployDescriptor
+ADVERTÊNCIA: A docBase C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\webapps\home\tiago\NetBeansProjects\gerenciador\build\web inside the host appBase has been specified, and will be ignored
+mar 07, 2018 5:07:49 PM org.apache.catalina.core.StandardContext resourcesStart
+GRAVE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\webapps\WEB-INF does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5239)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5430)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+mar 07, 2018 5:07:49 PM org.apache.catalina.core.ContainerBase addChildInternal
+GRAVE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WEB-INF]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:162)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5431)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	... 10 more
+
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.HostConfig deployDescriptor
+GRAVE: Error deploying configuration descriptor C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\conf\Catalina\localhost\WEB-INF.xml
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WEB-INF]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1019)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMAÇÕES: Deployment of configuration descriptor C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\conf\Catalina\localhost\WEB-INF.xml has finished in 99 ms
+mar 07, 2018 5:07:49 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\webapps\olimpoapi.war
+mar 07, 2018 5:07:52 PM org.apache.catalina.startup.TldConfig execute
+INFORMAÇÕES: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mar 07, 2018 5:07:52 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFORMAÇÕES: Initiating Jersey application, version Jersey: 2.5 2013-12-18 14:27:29...
+mar 07, 2018 5:07:53 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deployment of web application archive C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\webapps\olimpoapi.war has finished in 3,449 ms
+mar 07, 2018 5:07:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\webapps\docs
+mar 07, 2018 5:07:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\webapps\docs has finished in 56 ms
+mar 07, 2018 5:07:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\webapps\examples
+mar 07, 2018 5:07:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\webapps\examples has finished in 1,020 ms
+mar 07, 2018 5:07:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\webapps\host-manager
+mar 07, 2018 5:07:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\webapps\host-manager has finished in 262 ms
+mar 07, 2018 5:07:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\webapps\manager
+mar 07, 2018 5:07:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\webapps\manager has finished in 58 ms
+mar 07, 2018 5:07:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\webapps\ROOT
+mar 07, 2018 5:07:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\tiagoluz\Downloads\apache-tomcat-7.0.82\apache-tomcat-7.0.82\webapps\ROOT has finished in 42 ms
+mar 07, 2018 5:07:54 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-8080"]
+mar 07, 2018 5:07:54 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+mar 07, 2018 5:07:54 PM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 5104 ms
